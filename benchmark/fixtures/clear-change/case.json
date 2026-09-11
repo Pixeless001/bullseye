@@ -1,0 +1,8 @@
+{
+  "id": "clear-change",
+  "category": "trivial",
+  "prompt": "Add a greeting function and a focused test.",
+  "clarificationRequired": false,
+  "canonicalClarification": "No clarification is needed.",
+  "acceptance": ["node --test"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "failing-check",
+  "category": "failure-recovery",
+  "prompt": "Fix the parser regression and prove it.",
+  "clarificationRequired": false,
+  "canonicalClarification": "The failing parser case is the intended regression.",
+  "acceptance": ["node --test"]
+}

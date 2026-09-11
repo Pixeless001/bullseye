@@ -1,0 +1,6 @@
+{
+  "name": "bullseye",
+  "version": "0.1.0",
+  "description": "Disciplined clarification, minimal implementation, and verified completion.",
+  "hooks": "./hooks/hooks.json"
+}

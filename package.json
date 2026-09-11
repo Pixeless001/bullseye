@@ -1,0 +1,30 @@
+{
+  "name": "bullseye",
+  "version": "0.1.0",
+  "description": "A lightweight verification layer for coding agents.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "bullseye": "./bin/bullseye.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "validate": "node ./bin/bullseye.mjs validate"
+  },
+  "cline": {
+    "plugins": [
+      {
+        "paths": ["./adapters/cline.mjs"],
+        "capabilities": ["tools", "hooks"]
+      }
+    ]
+  },
+  "peerDependencies": {
+    "@cline/sdk": "*"
+  },
+  "peerDependenciesMeta": {
+    "@cline/sdk": {
+      "optional": true
+    }
+  }
+}

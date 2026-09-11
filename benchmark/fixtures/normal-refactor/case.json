@@ -1,0 +1,8 @@
+{
+  "id": "normal-refactor",
+  "category": "normal",
+  "prompt": "Replace duplicated normalization logic with the existing shared helper.",
+  "clarificationRequired": false,
+  "canonicalClarification": "Reuse the existing helper without changing public behavior.",
+  "acceptance": ["node --test"]
+}

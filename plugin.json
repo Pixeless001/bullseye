@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "bullseye",
+  "version": "0.1.0",
+  "description": "Disciplined clarification, minimal implementation, and verified completion for coding agents.",
+  "author": {
+    "name": "Pixeless_"
+  },
+  "license": "MIT"
+}

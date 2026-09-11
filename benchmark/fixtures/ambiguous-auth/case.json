@@ -1,0 +1,8 @@
+{
+  "id": "ambiguous-auth",
+  "category": "ambiguity-heavy",
+  "prompt": "Protect the new endpoint with authentication.",
+  "clarificationRequired": true,
+  "canonicalClarification": "Protect only the new endpoint; existing endpoints remain public.",
+  "acceptance": ["node --test"]
+}
