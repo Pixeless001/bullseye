@@ -1,6 +1,6 @@
 ---
 name: bullseye
-description: Apply Bullseye when completing coding work: clarify material ambiguity, make the smallest sufficient change, and leave verified completion or an evidence-backed blocker.
+description: "Apply Bullseye to clarify material ambiguity, make the smallest sufficient coding change, and leave verified completion or an evidence-backed blocker."
 ---
 
 # Bullseye

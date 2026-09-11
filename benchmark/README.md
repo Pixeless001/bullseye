@@ -1,6 +1,6 @@
 # Benchmark
 
-`node ./benchmark/run.mjs` validates and prepares deterministic fixture metadata
-for harness-specific pilot runs. It deliberately does not invoke an installed
-coding agent; point each harness at the emitted manifest and capture its
-transcript separately.
+`node ./benchmark/run.mjs` executes deterministic baseline, proof, completion,
+clarification-policy, and failure-recovery checks without making model calls.
+The emitted manifest retains each pilot prompt for native harness transcript
+testing.

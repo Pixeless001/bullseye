@@ -4,10 +4,29 @@
   "description": "A lightweight verification layer for coding agents.",
   "license": "MIT",
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "bin": {
     "bullseye": "./bin/bullseye.mjs"
   },
+  "files": [
+    ".claude-plugin/",
+    ".codex-plugin/",
+    ".cursor-plugin/",
+    "adapters/",
+    "benchmark/README.md",
+    "benchmark/fixtures/",
+    "benchmark/run.mjs",
+    "bin/",
+    "hooks/",
+    "skills/",
+    "src/",
+    "LICENSE",
+    "plugin.json"
+  ],
   "scripts": {
+    "benchmark": "node ./benchmark/run.mjs",
     "test": "node --test",
     "validate": "node ./bin/bullseye.mjs validate"
   },
@@ -15,15 +34,15 @@
     "plugins": [
       {
         "paths": ["./adapters/cline.mjs"],
-        "capabilities": ["tools", "hooks"]
+        "capabilities": ["tools", "hooks", "rules"]
       }
     ]
   },
   "peerDependencies": {
-    "@cline/sdk": "*"
+    "@cline/core": "*"
   },
   "peerDependenciesMeta": {
-    "@cline/sdk": {
+    "@cline/core": {
       "optional": true
     }
   }

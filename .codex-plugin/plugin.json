@@ -2,5 +2,21 @@
   "name": "bullseye",
   "version": "0.1.0",
   "description": "Disciplined clarification, minimal implementation, and verified completion.",
-  "hooks": "./hooks/hooks.json"
+  "author": {
+    "name": "Pixeless_"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Bullseye",
+    "shortDescription": "Verified completion for coding agents",
+    "longDescription": "Guides coding agents toward minimal changes, current proof, and evidence-backed completion.",
+    "developerName": "Pixeless_",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "Implement this change and prove it works.",
+      "Fix this bug with the smallest verified change."
+    ]
+  }
 }
